@@ -46,7 +46,7 @@ defmodule Client.Mixfile do
   defp deps do
     [{ :mock, "~> 0.1.0", only: [:dev, :test] }, 
      { :ibrowse, github: "cmullaparthi/ibrowse", tag: "v4.1.0" },
-     { :httpotion, "~> 1.8" }, 
+     {:httpoison, "~> 1.8"},
      { :exjsx, "~> 3.1.0" },
      { :uuid, "~> 1.1" },
      { :earmark, "~> 0.1", only: :dev },
